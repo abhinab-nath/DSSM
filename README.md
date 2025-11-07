@@ -1,4 +1,20 @@
-# 🧠 Data Science Project — Phishing Websites Dataset  
+<div align="center">
+
+  <h1>🧠 Data Science Project — Phishing Websites Dataset</h1>
+
+  <br />
+  <div>
+    <img src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python&logoColor=white&color=3776AB" alt="Python" />
+    <img src="https://img.shields.io/badge/-Pandas-black?style=for-the-badge&logo=pandas&logoColor=white&color=150458" alt="Pandas" />
+    <img src="https://img.shields.io/badge/-Matplotlib-black?style=for-the-badge&logo=plotly&logoColor=white&color=11557C" alt="Matplotlib" />
+    <img src="https://img.shields.io/badge/-Seaborn-black?style=for-the-badge&logoColor=white&color=01B0F0" alt="Seaborn" />
+    <img src="https://img.shields.io/badge/-YData_Profiling-black?style=for-the-badge&logo=data&logoColor=white&color=FF6B6B" alt="YData Profiling" />
+    <img src="https://img.shields.io/badge/-UCI_Dataset-black?style=for-the-badge&logo=databricks&logoColor=white&color=13ADC7" alt="UCI Dataset" />
+  </div>
+  <br />
+  <p>Performing Data Analysis and Visualization on the UCI Phishing Websites Dataset</p>
+  
+</div>
 
 ---
 
@@ -131,8 +147,6 @@ Through this project, we successfully:
 
 ---
 
-## 👨‍💻 Author
+#### 👨‍💻 Author: [Abhinab Nath](https://github.com/abhinab-nath/)
 
-Abhinab Nath
-
-📎 **[GitHub Profile](https://github.com/abhinab-nath)**
+<img src="https://img.shields.io/badge/-MIT_License-black?style=for-the-badge&logo=bookstack&logoColor=white&color=019B8F" alt="MIT License" />
