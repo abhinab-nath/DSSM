@@ -1,0 +1,57 @@
+STEP 1: Selection of Dataset
+We selected a Phishing Dataset from UCI ML repo for our porject.
+The dataset was orginally available in ARFF which is not suitable for many python libraries,
+so we first converted it into CSV file format for easier handling and analysis.
+
+----
+
+STEP 2: Data loading and understanding
+After converting the datset, we loaded it into python using data analysis tools.
+And we started by observing: 
+    -the shape of dataset(no. of rows, columns)
+    -the names of all features(columns)
+    -the types of data in each column(numerical, categorical, etc)
+This step helped us get a clear idea about the structure and composition of our dataset.
+
+----
+
+STEP 3: Data summary and description
+We generated a summary report of the dataset to understand it better.
+This include: 
+    -basic statistics like mean, median, minimum, maximum, and standard deviation.
+    -count of missing values in each column
+    -class distribution of the targated variable( which indiactes if a website is phishing or legitimate).
+    -correaltion analysis between different features to see how strongly they are related.
+This summary gave us an overall view of data quality, balance, and relationships between variables.
+
+----
+
+STEP 4: Data Visulization
+We performed several types of visual analysis to understand the data patterns more clearly.
+Some of the main Visulization we created include:
+    1.Histograms: to study the distribution of each numeric feature and see if the data is normally distributed or skewed.
+    2.BoxPlots: to detect the presence of outliers and compare the spread of data across features.
+    3.CountPlots: to visualize the frequency of each category in categorical column.
+    4.PairPlots: to observe pairwise relationships and patterns between numerical variable.
+    5.Correaltion Heatmap: to identify features that are highly correlated with each other.
+Allt these plots helped in identifying useful insights about the dataset and detetecting any irregularities or patterns.
+
+----
+
+STEP 5: Observation from analysis
+From decriptive and visual analysis, we could identify:
+    -which features were most correalted with the target result.
+    -whether any columns had missing or unusual values.
+    -the balance between phishing and non-phishing classes.
+    -possible outliers or features that might need transformation before modeling.
+These finding are useful for data processing in later stages.
+
+----
+
+STEP 6: Outcome so far
+Till now we have,
+    -sucessfully converted and explored the dataset.
+    -generated a complete descriptive summary.
+    -visualized data patterns.
+    -identified potential next steps for model building and evaluation.
+This completes the Exploratory Data Analysis (EDA) phase of our subject, which forms foundation of all further modelling.
