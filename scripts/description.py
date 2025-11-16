@@ -30,6 +30,10 @@ with open('Dataset_Description.txt', 'w', encoding='utf-8') as f:
     f.write(" Class Distribution (Result column):\n")
     f.write(str(df['Result'].value_counts()) + "\n\n")
 
+    # Display first five rows
+    f.write(" First Five Rows (head function):\n")
+    f.write(str(df.head()) + "\n\n")
+
     # Correlation matrix
     f.write(" Correlation Matrix (top 10 shown):\n")
     f.write(str(df.corr().head(10)) + "\n\n")
